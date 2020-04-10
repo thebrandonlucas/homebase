@@ -14,7 +14,9 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url('./images/IMG_2290.JPG'); 
+  background-size: 100% 100%; 
+  /* background-color: #ddd; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +24,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  /* font-family: times;  */
 }
 
 .App-link {
@@ -35,4 +38,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav-container {
+  background: rgba(0, 0, 0, 0.4); 
+  border-radius: 10vmin; 
 }

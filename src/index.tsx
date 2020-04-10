@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+require('bootstrap/dist/css/bootstrap.min.css')
+require('./bootstrap-overrides.css')
 
 ReactDOM.render(
   <React.StrictMode>

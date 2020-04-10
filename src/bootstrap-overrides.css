@@ -1,0 +1,24 @@
+.btn {
+    /* border-radius: 0; */
+}
+
+.btn:hover {
+    color: black;
+}
+
+#bootstrap-overrides .nav-link {
+    color: white;
+    border-radius: 10px;
+    transition: 0.3s; 
+}
+
+#bootstrap-overrides .nav-link.active {
+    color: #ffd333;
+    opacity: 1;
+}
+
+#bootstrap-overrides .nav-link:hover {
+    color: #ffd333;
+    opacity: 1;
+}
+
