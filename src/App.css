@@ -15,8 +15,10 @@
 
 .App-header {
   background-image: url('./images/IMG_2290.JPG'); 
-  background-size: 100% 100%; 
-  /* background-color: #ddd; */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,7 +26,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  /* font-family: times;  */
 }
 
 .App-link {
@@ -40,7 +41,30 @@
   }
 }
 
-.nav-container {
-  background: rgba(0, 0, 0, 0.4); 
+.background-container {
+  background: rgba(0, 0, 0, 0.5); 
   border-radius: 10vmin; 
+  z-index: 1; 
+}
+
+.background-container-content {
+  padding: 3vmin; 
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+}
+
+.title {  
+  display: block; 
+  font-size: calc(50px + 2vmin);
+} 
+
+.min-vh-80 {
+  min-height: 80vh;
+}
+
+.subtitle {
+  display: block; 
 }

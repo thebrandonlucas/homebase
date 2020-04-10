@@ -7,7 +7,13 @@ function App() {
   return (
     <div id="bootstrap-overrides" className="App">
       <header className="App-header">
-        <div className="nav-container">
+        <div className="d-flex flex-column align-items-center justify-content-center min-vh-80">
+          <div className="background-container background-container-content">
+            <h1 className="title">Brandon Lucas</h1><br />
+            <h3 className="subtitle">Full-stack Web Development, Blockchain, Machine Learning</h3>
+          </div>
+        </div>
+        <div className="background-container sticky">
           <Navbar expand="lg">
             {/* <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand> */}
             <Nav className="mr-auto">
@@ -17,19 +23,6 @@ function App() {
             </Nav>
           </Navbar>
         </div>
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <Button variant="outline-success">hello</Button>
       </header>
     </div >
   );
