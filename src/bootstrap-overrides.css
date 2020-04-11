@@ -1,6 +1,8 @@
 #bootstrap-overrides .nav-link {
     color: white;
     border-radius: 10px;
+    border-top: 1vmin solid rgba(0, 0, 0, 0); 
+    border-bottom: 1vmin solid rgba(0, 0, 0, 0); 
     transition: 0.3s; 
 }
 
