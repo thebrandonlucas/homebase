@@ -1,3 +1,7 @@
+#bootstrap-overrides body {
+    background-color: rgb(16, 196, 112);
+}
+
 #bootstrap-overrides .nav-link {
     color: white;
     border-radius: 10px;

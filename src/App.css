@@ -2,25 +2,14 @@
   text-align: center;
 }
 
+section {
+  word-wrap: break-word;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  /* background-image: url('images/IMG_2290.JPG');  */
-  /* background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 100vh; */
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white; */
 }
 
 @keyframes App-logo-spin {
@@ -33,7 +22,7 @@
 }
 
 .homepage {
-  background-image: url('images/IMG_2290.JPG'); 
+  background-image: url('images/background/IMG_2290.JPG'); 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -47,8 +36,8 @@
   color: white;
 }
 
-.projectpage {
-  background-image: url('images/IMG_2204.JPG'); 
+.aboutpage {
+  background-image: url('images/background/IMG_2204.JPG'); 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -78,7 +67,7 @@
 } 
 
 .min-vh-title {
-  min-height: 100vh;
+  min-height: 160vmin;
 }
 
 .subtitle {
@@ -91,8 +80,23 @@
   padding-top: 20vh; 
 }
 
+/* for mobile */
 .fullscreen {
-  height: 100vh; 
+  min-height: 100vmax; 
+}
+
+/* small laptops and tablets */
+@media only screen and (min-width: 768px) {
+  .fullscreen {
+    min-height: 50vmax; 
+  }
+}
+
+/* medium-large screens */
+@media only screen and (min-width: 1275px) {
+  .fullscreen {
+    min-height: 100vmin; 
+  }
 }
 
 .fillspace {

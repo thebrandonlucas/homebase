@@ -3,8 +3,10 @@ import logo from './logo.svg';
 import './App.css';
 import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap'
 
-import AboutPage from 'components/AboutPage'
-import ProjectsPage from 'components/ProjectsPage'
+import AboutPage from 'pages/AboutPage'
+import ProjectsPage from 'pages/ProjectsPage'
+import ExperiencePage from 'pages/ExperiencePage'
+import BlogPage from 'pages/BlogPage'
 
 function App() {
   const [activeClass, setActiveClass] = useState('')
@@ -21,17 +23,15 @@ function App() {
 
   return (
     <div id="bootstrap-overrides" className="App">
-      {/* <header className="App-header"> */}
-
       <div className="homepage">
         <div className={activeClass + " navbar-container fixed-top"}>
           <Navbar expand="lg">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="navbar">
               <Nav className="mr-auto">
-                <Nav.Link href="#about">About</Nav.Link>
                 <Nav.Link href="#projects">Projects</Nav.Link>
                 <Nav.Link href="#experience">Experience</Nav.Link>
+                <Nav.Link href="#about">About</Nav.Link>
                 <Nav.Link href="#blog">Blog</Nav.Link>
               </Nav>
             </Navbar.Collapse>
@@ -44,13 +44,10 @@ function App() {
           </div>
         </div>
       </div>
-
-
-      {/* <div className="min-vh-navbar"></div> */}
-      <AboutPage bgColor='rgb(16, 196, 112)' />
-      <ProjectsPage img='images/IMG_2204.JPG' />
-      {/* </header> */}
-
+      <ProjectsPage bgColor='rgb(16, 196, 112)' />
+      <ExperiencePage bgColor='rgb(0, 89, 255)' />
+      <BlogPage bgColor='rgb(255, 174, 0)' />
+      <AboutPage />
     </div >
   );
 }
