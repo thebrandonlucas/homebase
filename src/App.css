@@ -2,11 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -14,6 +9,30 @@
 }
 
 .App-header {
+  /* background-image: url('images/IMG_2290.JPG');  */
+  /* background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh; */
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white; */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.homepage {
   background-image: url('images/IMG_2290.JPG'); 
   background-attachment: fixed;
   background-position: center;
@@ -28,29 +47,29 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.projectpage {
+  background-image: url('images/IMG_2204.JPG'); 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-container {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  width: 30vw; 
+  margin: auto auto; 
 }
 
-.background-container {
+.navbar-container-background {
   background: rgba(0, 0, 0, 0.8); 
   border-radius: 10vmin; 
   z-index: 1; 
   transition: 0.3s; 
-}
-
-.background-container-content {
-  padding: 3vmin; 
-  height: 0vmin; 
 }
 
 .title {  
@@ -62,34 +81,18 @@
   min-height: 100vh;
 }
 
-.min-vh-navbar {
-  min-height: 20vh;
-}
-
-@media (max-width: 768px) {
-  .min-vh-title {
-    min-height: 30vh;
-  }
-
-  .min-vh-navbar {
-    min-height: 40vh; 
-  }
-}
-
 .subtitle {
   display: block; 
   font-size: 5vmin; 
 }
 
 .page-container {
-  background-color: rgb(16, 196, 112); 
   color: white; 
-  width: 100%; 
-  height: 100%; 
+  padding-top: 20vh; 
 }
 
 .fullscreen {
-  height: 130vh; 
+  height: 100vh; 
 }
 
 .fillspace {
