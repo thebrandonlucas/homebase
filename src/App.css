@@ -87,6 +87,16 @@ section {
   overflow: hidden; 
 }
 
+.card-link {
+  margin: 5rem 0 5rem 0; 
+  text-decoration: none; 
+  transition: all .2s ease-in-out; 
+}
+
+.card-link:hover {
+  transform: scale(1.05); 
+}
+
 /* for mobile */
 .fullscreen {
   min-height: 100vmax; 

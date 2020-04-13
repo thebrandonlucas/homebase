@@ -16,7 +16,7 @@ const data = {
         imgAltText: "Combat Deepfakes", 
         link: "https://thebrandonlucas.github.io/combat-deepfakes/", 
         title: "Combat Deepfakes",
-        description: "A web app for timestamping videos to combat the spread of deepfake video misinformation. Frontend built with React, smart contracts written in Solidity, and MetaMask used as the Ethereum wallet.", 
+        description: "A web app that uses the Ethereum blockchain for timestamping videos to combat the spread of deepfake misinformation. Frontend built with React, smart contracts written in Solidity, and MetaMask used as the Ethereum wallet.", 
     }
 }
 
@@ -25,7 +25,7 @@ function ProjectsPage(props: any) {
         <div id="projects" className="page-container fullscreen" style={{ backgroundColor: props.bgColor }}>
             <h1>Projects</h1>
             <div className="container">
-                <div className="row justify-content-around">
+                <div className="row justify-content-between">
                     <ProjectCard 
                         imgSrc={covid_app_img} 
                         imgAltText={data.covid19.imgAltText} 
@@ -40,14 +40,14 @@ function ProjectsPage(props: any) {
                         title={data.combat_deepfakes.title}
                         description={data.combat_deepfakes.description} 
                     />
-                    {/* <ProjectCard 
+                    <ProjectCard 
                         imgSrc={covid_app_img} 
                         imgAltText={data.covid19.imgAltText} 
                         link={data.covid19.link} 
                         title={data.covid19.title}
                         description={data.covid19.description} 
                     />
-                    <ProjectCard imgSrc={combat_deepfakes_img} imgAltText="Combating Deepfakes" link="#" />
+                    {/* <ProjectCard imgSrc={combat_deepfakes_img} imgAltText="Combating Deepfakes" link="#" />
                     <ProjectCard imgSrc="" imgAltText="COVID-19 Tracker App" link="#" /> */}
                 </div>
             </div>
