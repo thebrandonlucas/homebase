@@ -10,6 +10,7 @@ import BlogPage from 'pages/BlogPage'
 
 function App() {
   const [activeClass, setActiveClass] = useState('')
+  // const [navShowing, setNavShowing] = useState('down')
 
   useEffect(() => {
     window.addEventListener('scroll', () => {
