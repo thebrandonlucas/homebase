@@ -80,16 +80,9 @@ section {
   padding-top: 15vh; 
 }
 
-.card-img {
-  max-width: 100%; 
-  height: 30vmin; 
-  object-fit: cover;
-  overflow: hidden; 
-}
-
 .card-link {
-  margin: 5rem 0 5rem 0; 
   text-decoration: none; 
+  margin: 2rem 0 2rem 0; 
   transition: all .2s ease-in-out; 
 }
 

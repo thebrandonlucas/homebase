@@ -22,3 +22,13 @@
     opacity: 1;
 }
 
+#bootstrap-overrides .card {
+    border: none; 
+    padding: 0; 
+}
+
+#bootstrap-overrides .card-img {
+    height: 30vmin; 
+    border-bottom-right-radius: 0; 
+    border-bottom-left-radius: 0;  
+}

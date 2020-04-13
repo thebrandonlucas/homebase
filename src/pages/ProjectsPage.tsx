@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import ProjectCard from 'components/ProjectCard'
 import covid_app_img from '../images/projects/covid-19_app/covid_cropped.jpg'
 import combat_deepfakes_img from '../images/projects/combat-deepfakes.png'
+import lca_img from '../images/projects/BamaTheatre.jpg'
 
 const data = {
     covid19: {
@@ -17,7 +18,15 @@ const data = {
         link: "https://thebrandonlucas.github.io/combat-deepfakes/", 
         title: "Combat Deepfakes",
         description: "A web app that uses the Ethereum blockchain for timestamping videos to combat the spread of deepfake misinformation. Frontend built with React, smart contracts written in Solidity, and MetaMask used as the Ethereum wallet.", 
-    }
+    }, 
+    lca: {
+        // imgSrc: combat_deepfakes_img, 
+        imgAltText: "Lights Camera Alabama", 
+        link: "https://www.lightscameraalabama.com/", 
+        title: "Lights Camera Alabama",
+        description: "A website showcasing historical films about Tuscaloosa and Alabama and local heroes, with search functionality and a tagging system to filter through videos. Built with React.", 
+    }, 
+
 }
 
 function ProjectsPage(props: any) {
@@ -41,11 +50,11 @@ function ProjectsPage(props: any) {
                         description={data.combat_deepfakes.description} 
                     />
                     <ProjectCard 
-                        imgSrc={covid_app_img} 
-                        imgAltText={data.covid19.imgAltText} 
-                        link={data.covid19.link} 
-                        title={data.covid19.title}
-                        description={data.covid19.description} 
+                        imgSrc={lca_img} 
+                        imgAltText={data.lca.imgAltText} 
+                        link={data.lca.link} 
+                        title={data.lca.title}
+                        description={data.lca.description} 
                     />
                     {/* <ProjectCard imgSrc={combat_deepfakes_img} imgAltText="Combating Deepfakes" link="#" />
                     <ProjectCard imgSrc="" imgAltText="COVID-19 Tracker App" link="#" /> */}
