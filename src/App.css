@@ -46,10 +46,6 @@ section {
 }
 
 .navbar-container {
-  display: flex; 
-  flex-direction: column;
-  align-items: center;
-  justify-self: center;
   width: 30vw; 
   margin: auto auto; 
 }
@@ -88,6 +84,10 @@ section {
 
 .card-link:hover {
   transform: scale(1.05); 
+}
+
+.card-img {
+  object-fit: cover; 
 }
 
 /* for mobile */

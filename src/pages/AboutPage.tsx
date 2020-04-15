@@ -4,10 +4,8 @@ function AboutPage(props: any) {
     return (
         <section id="about" className="page-container fullscreen aboutpage" style={{ backgroundColor: props.bgColor }}>
             <h1>About Me</h1>
-            <p>I'm doing work to try and make things better</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, eum. Dignissimos maiores quos ex ipsam. Totam accusantium amet ipsam sint veniam, sunt ullam officiis provident ipsum, explicabo, eveniet quis quisquam.</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, eum. Dignissimos maiores quos ex ipsam. Totam accusantium amet ipsam sint veniam, sunt ullam officiis provident ipsum, explicabo, eveniet quis quisquam.</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, eum. Dignissimos maiores quos ex ipsam. Totam accusantium amet ipsam sint veniam, sunt ullam officiis provident ipsum, explicabo, eveniet quis quisquam.</p>
+            <h3>Mission</h3>
+            <p>To do as much good as possible in the limited time alloted to me</p>
         </section>
     );
 }
