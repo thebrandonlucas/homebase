@@ -37,6 +37,15 @@ section {
 }
 
 .aboutpage {
+  /* background-image: url('images/background/IMG_2204.JPG'); 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh; */
+}
+
+.blogpage {
   background-image: url('images/background/IMG_2204.JPG'); 
   background-attachment: fixed;
   background-position: center;
@@ -88,6 +97,12 @@ section {
 
 .card-img {
   object-fit: cover; 
+}
+
+#navbar {
+  justify-content: center;
+  justify-self: center;
+  align-items: center;
 }
 
 /* for mobile */

@@ -25,22 +25,13 @@ function App() {
   return (
     <div id="bootstrap-overrides" className="App">
       <div className="homepage">
-        <Navbar expand="lg" className={activeClass + " navbar-container fixed-top "}>
+        <Navbar expand="lg" className={activeClass + " navbar-container fixed-top justify-content-around"}>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="navbar">
-            <Nav className="justify-content-around w-100 align-self-center">
-              <Nav.Item>
+            <Nav className="justify-content-around w-100">
               <Nav.Link href="#projects">Projects</Nav.Link>
-
-              </Nav.Item>
-              <Nav.Item>
-              <Nav.Link href="#about">About</Nav.Link>
-              </Nav.Item>
-              <Nav.Item>
               <Nav.Link href="#blog">Blog</Nav.Link>
-
-              </Nav.Item>
-              
+              <Nav.Link href="#about">About</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
@@ -52,9 +43,8 @@ function App() {
         </div>
       </div>
       <ProjectsPage bgColor='rgb(16, 196, 112)' />
-      {/* <ExperiencePage bgColor='rgb(0, 89, 255)' /> */}
-      <AboutPage />
-      <BlogPage bgColor='rgb(255, 174, 0)' />
+      <BlogPage bgColor='rgba(0, 0, 0, 0.3)' />
+      <AboutPage bgColor='rgb(39, 182, 218)' />
     </div >
   );
 }
