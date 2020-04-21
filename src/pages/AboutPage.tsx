@@ -32,7 +32,7 @@ function AboutPage(props: any) {
                                 If you'd like to find out more about me, see my <a target="_blank" href="https://www.linkedin.com/in/bslucas/">LinkedIn</a>
                             </p>
                             <p>
-                                If you'd like to take a look at some of my work, check out my <a href="https://github.com/thebrandonlucas">Github</a>
+                                If you'd like to take a look at some of my work, check out my <a target="_blank" href="https://github.com/thebrandonlucas">Github</a>
                             </p>
                         </div>
                     </div>
