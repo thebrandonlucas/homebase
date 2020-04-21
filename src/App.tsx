@@ -29,13 +29,14 @@ function App() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="navbar">
             <Nav className="justify-content-around w-100">
+              <Nav.Link href="#home">Home</Nav.Link>
               <Nav.Link href="#projects">Projects</Nav.Link>
               <Nav.Link href="#blog">Blog</Nav.Link>
               <Nav.Link href="#about">About</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-        <div className="d-flex flex-column align-items-center justify-content-center min-vh-title">
+        <div id="home" className="d-flex flex-column align-items-center justify-content-center min-vh-title">
           <div>
             <h1 className="title">Brandon Lucas</h1>
             <h3 className="subtitle">Full-Stack Web/Mobile Apps, Blockchain, Machine Learning</h3>

@@ -45,6 +45,10 @@ section {
   min-height: 100vh; */
 }
 
+.aboutpage p {
+  font-size: 4vh; 
+}
+
 .blogpage {
   background-image: url('images/background/IMG_2204.JPG'); 
   background-attachment: fixed;
@@ -52,6 +56,12 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
+}
+
+.blogpage p {
+  font-size: 4vh; 
+  align-items: center;
+  vertical-align: center;
 }
 
 .navbar-container {
