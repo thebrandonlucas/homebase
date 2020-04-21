@@ -12,7 +12,7 @@ function AboutPage(props: any) {
                             <p>
                                 <b>To live such that the world is a better place because I'm in it.</b>
                                 <br />
-                                That might sound cliche, but hey, I think it's a good starting point.
+                                That might sound cliche, but cliches exist for a reason.
                             </p>
                             <h2>Who I Am</h2>
                             <p>
