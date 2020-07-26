@@ -138,3 +138,13 @@ section {
   height: 80vh; 
 }
 
+.blog-link {
+  color: #ffd333; 
+  transition: all 0.3s ease-in-out; 
+}
+
+.blog-link:hover {
+  color: rgb(16, 196, 112); 
+  transition: 0.3s; 
+  text-decoration: none;
+}

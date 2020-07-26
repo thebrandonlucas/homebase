@@ -5,7 +5,13 @@ function BlogPage(props: any) {
         <div className="blogpage">
             <div id="blog" className="page-container fullscreen" style={{ backgroundColor: props.bgColor }}>
                 <h1>Blog</h1>
-                <p>Check back soon! Articles are on the way...</p>
+                <p>
+                    Reflections, thoughts, essays, and more.
+                    <br />
+                    <a className="blog-link" href="https://www.notion.so/Blog-41e42cd897de424082115b3fe11e1aae">
+                        Go to blog
+                    </a>
+                </p>
             </div>
         </div>
 
