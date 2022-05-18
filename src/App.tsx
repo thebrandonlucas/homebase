@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap'
+import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
 
-import AboutPage from 'pages/AboutPage'
-import ProjectsPage from 'pages/ProjectsPage'
-import ExperiencePage from 'pages/ExperiencePage'
-import BlogPage from 'pages/BlogPage'
+import AboutPage from 'pages/AboutPage';
+import ProjectsPage from 'pages/ProjectsPage';
+import ExperiencePage from 'pages/ExperiencePage';
+import BlogPage from 'pages/BlogPage';
 
 function App() {
-  const [activeClass, setActiveClass] = useState('')
+  const [activeClass, setActiveClass] = useState('');
   // const [navShowing, setNavShowing] = useState('down')
 
   useEffect(() => {
@@ -20,12 +20,12 @@ function App() {
       }
       setActiveClass(navBackgroundClass);
     });
-  })
+  });
 
   return (
     <div id="bootstrap-overrides" className="App">
       <div className="homepage">
-        <Navbar expand="lg" className={activeClass + " navbar-container fixed-top justify-content-around"}>
+        <Navbar expand="lg" className={activeClass + ' navbar-container fixed-top justify-content-around'}>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="navbar">
             <Nav className="justify-content-around w-100">
@@ -39,14 +39,14 @@ function App() {
         <div id="home" className="d-flex flex-column align-items-center justify-content-center min-vh-title">
           <div>
             <h1 className="title">Brandon Lucas</h1>
-            <h3 className="subtitle">Full-Stack Web/Mobile Apps, Blockchain, Machine Learning</h3>
+            <h3 className="subtitle">Full-Stack Web/Mobile Apps, Bitcoin, Machine Learning</h3>
           </div>
         </div>
       </div>
-      <ProjectsPage bgColor='rgb(16, 196, 112)' />
-      <BlogPage bgColor='rgba(0, 0, 0, 0.3)' />
-      <AboutPage bgColor='rgb(39, 182, 218)' />
-    </div >
+      <ProjectsPage bgColor="rgb(16, 196, 112)" />
+      <BlogPage bgColor="rgba(0, 0, 0, 0.3)" />
+      <AboutPage bgColor="rgb(39, 182, 218)" />
+    </div>
   );
 }
 
