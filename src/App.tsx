@@ -39,7 +39,7 @@ function App() {
         <div id="home" className="d-flex flex-column align-items-center justify-content-center min-vh-title">
           <div>
             <h1 className="title">Brandon Lucas</h1>
-            <h3 className="subtitle">Full-Stack Web/Mobile Apps, Bitcoin, Machine Learning</h3>
+            <h3 className="subtitle">Web/Mobile Apps & Bitcoin</h3>
           </div>
         </div>
       </div>
